@@ -1,11 +1,4 @@
-/* @font-face {
-    font-family: 'Single Day';
-    src: url('path/to/single-day-font.woff2') format('woff2'),
-         url('path/to/single-day-font.woff') format('woff');
-    font-weight: 400;
-    font-style: normal;
-  } */
-
+/* Register.css */
   body{
     margin: 0;
     padding: 0;
@@ -37,7 +30,7 @@
     font-size: 40px;
     font-style: normal;
     font-weight: 700;
-    line-height: 131.688%; /* 77.928px */
+    line-height: 131.688%; 
     letter-spacing: 1.1px;
     bottom: 8vh;
     left: 6vw;
@@ -123,7 +116,7 @@
     color: #7C7C7C;
     font-family: Roboto;
     font-size: 12px;
-    line-height: 121.7%; /* 25.506px */
+    line-height: 121.7%; 
     letter-spacing: 0.36px;
     font-weight: 500;
   }
@@ -132,5 +125,13 @@
     color: #72DB73;
   }
 
+  .error {
+    border-color: red;
+  }
   
+  .errorText {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+  }
   

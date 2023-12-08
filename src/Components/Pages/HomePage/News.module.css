@@ -1,0 +1,40 @@
+.news{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.image{
+    height: 50%;
+    width : 100%;
+    border-radius: 2vh 2vh 0 0;
+}
+
+.title {
+    position: absolute;
+    top: 28%;
+    background-color: rgba(0, 0, 0, 0.7); 
+    text-align: left;
+    padding: 1vh;
+}
+
+.timings{
+    font-size: 0.7rem;
+}
+
+.desc{
+    height: 50%;
+    width: 100%;
+    background-color: white;
+    color: black;
+    border-radius: 0 0 2vh 2vh;
+}
+
+p{
+    margin: 0;
+    text-align: justify;
+    padding: 3vh;
+    font-size: 16.25px;
+    font-weight: 400;
+    line-height: 161.688%; 
+}

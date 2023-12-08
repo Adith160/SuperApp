@@ -1,0 +1,203 @@
+body{
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  color: white;
+}
+
+.categoryBody{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+}
+
+.left{
+  width: 40%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.leftContent{
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+}
+
+.title{
+  margin: 0;
+  top: 2vh;
+  left: 1vw;
+  position: absolute;
+  color: #72DB73;
+  font-family: Single Day;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 139.688%;
+}
+
+.chooseTitle{
+  margin-top: 15vh;
+  width: 30vw;
+  height: 30vh;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 139.688%; 
+}
+
+.slectedCat{
+  height: 25vh;
+  width: 53vh;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  margin-right: 7vw;
+}
+
+.selected{
+  background-color: green;
+  width: 9vw;
+  height: 4.4vh;
+  border-radius: 2vh;
+  font-size: medium;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 1vh;
+}
+
+.unSelect{
+  background-color: green;
+  border: 0;
+  border-radius: 50%;
+}
+
+.warning {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 40vh;
+  color: #F00;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 105.688%; 
+  letter-spacing: 0.503px;
+  padding: 10px; 
+  border-radius: 5px; 
+  margin-top: 21px; 
+  margin-right: 12vw;
+}
+
+.warnImg {
+  width: 20px; 
+  height: 20px; 
+}
+
+.right{
+  width: 60vw;
+  height: 100vh;
+  position: relative;
+}
+
+.categories{
+  padding-left: 10vh;
+  margin-top: 10vh;
+  height: 72vh;
+  width: 43vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.catCard{
+  width: 12vw;
+  height: 21vh;
+  background-color: #FF5209;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 1vh;
+}
+
+.catCard h3{
+  margin: 0;
+  padding: 0;
+  padding-right: 4vw;
+}
+
+.cardImg{
+  width: 10vw;
+  height: 10vh;
+  border-radius: 1vh; 
+}
+
+.nextBtn{
+  position: absolute;
+  background-color: green;
+  width: 9vw;
+  height: 4.4vh;
+  border-radius: 2vh;
+  font-size: medium;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 1vh;
+  color: white;
+  border: none;
+  right: 16vw;
+  bottom: 9vh;
+}
+
+.selectedBorder{
+  border: 4px solid #11B800;
+}
+
+.Action{
+  background-color: #FF5209;
+}
+
+.Arama{
+  background-color: #D7A4FF;
+}
+
+.Romance{
+  background-color: #148A08;
+}
+
+.Thriller{
+  background-color: #84C2FF;
+}
+
+.Western{
+  background-color: #902500;
+}
+
+.Horror{
+  background-color: #7358FF;
+}
+
+.Fantasy{
+  background-color: #FF4ADE;
+}
+
+.Music{
+  background-color: #E61E32;
+}
+
+.Fiction{
+  background-color: #6CD061;
+}
