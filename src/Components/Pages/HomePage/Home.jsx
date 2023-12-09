@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react'
 import styles from './Home.module.css'
 import Weather from './Weather'
 import News from './News';
+import { useNavigate } from 'react-router-dom';
+import Timer from './Timer';
 
 function Home() {
 
@@ -21,6 +23,11 @@ function Home() {
       setUserData(user);
     }
   }, []);
+
+  const navigate = useNavigate();
+  const handleClick = () => {
+    navigate("/movies");
+  };
 
 
   return (
@@ -59,12 +66,30 @@ function Home() {
 
         </div>
         </div>
-        <div className={styles.bottomContent}></div>
+        <div className={styles.bottomContent}>
+         <Timer />
+        </div>
+
         </div>
 
         <div className={styles.newstContent}>
         <News />
         </div>
+        <button
+        style={{
+          position: "absolute",
+          bottom: "3vh",
+          right: "6vw",
+          background: "green",
+          border: "none",
+          color: "white",
+          padding: "6px",
+          borderRadius: "12px",
+        }}
+        onClick={handleClick}
+      >
+        Next Page
+      </button>
     </div>
     </>
   )

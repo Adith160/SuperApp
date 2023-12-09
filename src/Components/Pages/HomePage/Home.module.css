@@ -22,7 +22,7 @@ body{
 
 .mainContent{
     width: 60vw;
-    height: 83vh;
+    height: 85vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -30,20 +30,20 @@ body{
 
 .newstContent{
     width: 22vw;
-    height: 83vh;
+    height: 85vh;
     background-color: aqua;
     border-radius: 2vh;
 }
 
 .topContent{
-    height: 63%;
+    height: 60%;
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
 
 .bottomContent{
-    height: 33%;
+    height: 37%;
     width: 100%;
     display: flex; 
     border-radius: 2vh;
@@ -60,7 +60,7 @@ body{
 
 .topRightContent{
     height: 100%;
-    width: 35%;
+    width: 34%;
     background-color: #F1C75B;
     border-radius: 2vh;
     display: flex;

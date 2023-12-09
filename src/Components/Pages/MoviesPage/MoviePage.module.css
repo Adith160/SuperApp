@@ -1,0 +1,28 @@
+/* Movies.module.css */
+
+.Genreheading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .MoviesContainer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .movieTitles {
+    margin: 10px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .MovieImg {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  /* Add more styles as needed */
+  
